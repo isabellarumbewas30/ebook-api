@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get("Coba", function(){
+    return "Ini nyoba doang tp seru juga yak";
+});
